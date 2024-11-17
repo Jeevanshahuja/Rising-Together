@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #193074;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #ad1c1c;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(252, 250, 250);
+    margin: 0 15px;
+    padding: 10px 10px ;
+    background-color: #0d0d0d;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Community Hero Section */
+.community-hero {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-card {
+    width: 400px;
+    text-align: justify;
+}
+
+.hero-image2 {
+    width: 300px;
+    height: 300px; /* Fixed height for uniform display */
+    object-fit: cover; /* Ensures image fits within the fixed height and width */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+h4 {
+    color: #e91111;
+    font-size: 1.2em;
+}
+/* Responsive Image Styling */
+img, .hero-image {
+    max-width: 120%;  /* Ensures image never exceeds container width */
+    height: 80%;     /* Maintains aspect ratio */
+    display: block;   /* Removes extra space below images */
+    margin: 0 auto;   /* Centers the image if it's smaller than the container */
+}
+
